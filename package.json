@@ -1,7 +1,7 @@
 {
   "author": "Ashish-simpleCoder",
   "name": "full-final",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Testing the library deployement",
   "keywords": [],
   "main": "./dist/index.js",
@@ -28,7 +28,7 @@
     "lint": "tsc",
     "test": "vitest --coverage",
     "coverage": "vitest run --coverage",
-    "cs":"pnpm changeset"
+    "cs": "pnpm changeset"
   },
   "license": "MIT",
   "devDependencies": {
