@@ -22,7 +22,10 @@
     }
   },
   "scripts": {
-    "build": "tsup"
+    "prepare": "pnpm run build",
+    "release": "changeset publish",
+    "build": "tsup",
+    "lint": "tsc"
   },
   "license": "MIT",
   "devDependencies": {
