@@ -25,17 +25,26 @@
     "prepare": "pnpm run build",
     "release": "changeset publish",
     "build": "tsup",
-    "lint": "tsc"
+    "lint": "tsc",
+    "test": "vitest --coverage",
+    "coverage": "vitest run --coverage"
   },
   "license": "MIT",
   "devDependencies": {
     "@changesets/cli": "^2.26.1",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^14.0.0",
     "@types/node": "^18.15.11",
     "@types/react": "^18.0.33",
     "@types/react-dom": "^18.0.11",
+    "@types/testing-library__jest-dom": "^5.14.5",
+    "@vitejs/plugin-react": "^3.1.0",
+    "@vitest/coverage-istanbul": "^0.30.1",
     "jsdom": "^21.1.1",
     "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "tsup": "^6.7.0",
-    "typescript": "^5.0.4"
+    "typescript": "^5.0.4",
+    "vitest": "^0.30.1"
   }
 }

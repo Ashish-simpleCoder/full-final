@@ -6,7 +6,7 @@ export default defineConfig({
    sourcemap: true,
    clean: true,
    dts: true,
-   format: ["cjs", "esm", "iife"],
+   format: ["cjs", "esm"],
    minify: true,
    outDir: "dist",
    treeshake: true,

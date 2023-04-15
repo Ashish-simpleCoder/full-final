@@ -2,3 +2,5 @@ dist
 node_modules
 SETUP.md
 .github/workflows/size.yml
+examples
+coverage
