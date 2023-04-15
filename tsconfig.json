@@ -21,9 +21,11 @@
     "noUncheckedIndexedAccess": true,
     "allowUmdGlobalAccess": true
   },
+  "include": [
+    "src"
+  ],
   "exclude": [
     "node_modules",
-    "dist",
-    "jest-config.js",
+    "dist"
   ]
 }
