@@ -24,7 +24,8 @@
   "scripts": {
     "prepare": "pnpm run build",
     "release": "changeset publish",
-    "build": "tsup",
+    "build": "tsup && pnpm run post-build",
+    "post-build": "node scripts/addTypes.js",
     "lint": "tsc",
     "test": "vitest --coverage",
     "coverage": "vitest run --coverage",
