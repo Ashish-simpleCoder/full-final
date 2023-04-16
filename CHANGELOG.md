@@ -1,5 +1,11 @@
 # full-final
 
+## 1.3.0
+
+### Minor Changes
+
+- d014c65: Add types
+
 ## 1.2.0
 
 ### Minor Changes
