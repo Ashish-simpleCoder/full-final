@@ -1,5 +1,11 @@
 # full-final
 
+## 1.2.0
+
+### Minor Changes
+
+- c3c5be9: Add hooks
+
 ## 1.1.0
 
 ### Minor Changes
