@@ -1,7 +1,7 @@
 {
   "author": "Ashish-simpleCoder",
   "name": "full-final",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "Testing the library deployement",
   "keywords": [],
   "main": "./dist/index.js",

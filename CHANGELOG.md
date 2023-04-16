@@ -1,5 +1,15 @@
 # full-final
 
+## 1.4.0
+
+### Minor Changes
+
+- 6156ae5: Add error fix
+
+### Patch Changes
+
+- f58f3f6: Add umb access
+
 ## 1.3.0
 
 ### Minor Changes
