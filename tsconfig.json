@@ -19,7 +19,8 @@
     "declaration": true,
     "declarationMap": true,
     "noUncheckedIndexedAccess": true,
-    "noEmit": true
+    "noEmit": true,
+    "allowUmdGlobalAccess": true
   },
   "include": [
     "src"
